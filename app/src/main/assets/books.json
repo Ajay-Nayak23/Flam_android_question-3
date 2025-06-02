@@ -1,0 +1,18 @@
+[
+  {
+    "id": "1",
+    "title": "Clean Code",
+    "author": "Robert C. Martin",
+    "thumbnail": "",
+    "description": "A Handbook of Agile Software Craftsmanship.",
+    "rating": 4.5
+  },
+  {
+    "id": "2",
+    "title": "Effective Java",
+    "author": "Joshua Bloch",
+    "thumbnail": "",
+    "description": "Best practices for the Java platform.",
+    "rating": 4.8
+  }
+]
