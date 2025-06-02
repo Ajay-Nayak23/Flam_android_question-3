@@ -32,18 +32,18 @@ BookReviewApp is an Android application developed in Java using Android Studio. 
 
 ## 📦 Project Structure
 
-BookReviewApp/
-├── app/
-│ ├── java/com/example/bookreviewapp/
-│ │ ├── room/ # Room database and DAO
-│ │ ├── ui/ # Activities and UI components
-│ │ ├── network/ # Retrofit API services
-│ │ ├── viewmodel/ # ViewModels
-│ │ ├── model/ # Data models
-│ │ └── utils/ # Helper classes (if any)
-│ └── res/
-│ ├── layout/ # XML layout files
-│ └── drawable/ # Images and icons
+      BookReviewApp/
+      ├── app/
+      │ ├── java/com/example/bookreviewapp/
+      │ │ ├── room/ # Room database and DAO
+      │ │ ├── ui/ # Activities and UI components
+      │ │ ├── network/ # Retrofit API services
+      │ │ ├── viewmodel/ # ViewModels
+      │ │ ├── model/ # Data models
+      │ │ └── utils/ # Helper classes (if any)
+      │ └── res/
+      │ ├── layout/ # XML layout files
+      │ └── drawable/ # Images and icons
 
 
 
