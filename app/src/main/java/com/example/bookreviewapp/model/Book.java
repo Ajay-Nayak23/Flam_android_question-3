@@ -3,16 +3,18 @@ package com.example.bookreviewapp.model;
 import java.io.Serializable;
 
 public class Book implements Serializable {
-    private String id;
     private String title;
     private String author;
-    private String thumbnail;
     private String description;
     private float rating;
+    private String imageUrl;
 
-    // Public getters
-    public String getId() {
-        return id;
+    public Book(String title, String author, String description, float rating, String imageUrl) {
+        this.title = title;
+        this.author = author;
+        this.description = description;
+        this.rating = rating;
+        this.imageUrl = imageUrl;
     }
 
     public String getTitle() {
@@ -23,15 +25,15 @@ public class Book implements Serializable {
         return author;
     }
 
-    public String getThumbnail() {
-        return thumbnail;
-    }
-
     public String getDescription() {
         return description;
     }
 
     public float getRating() {
         return rating;
+    }
+
+    public String getImageUrl() {
+        return imageUrl;
     }
 }

@@ -37,7 +37,7 @@ public class BookRepository {
 
     public void saveFavorite(Book book) {
         BookEntity entity = new BookEntity();
-        entity.id = book.getId();
+//        entity.id = book.getId();
         entity.title = book.getTitle();
         entity.author = book.getAuthor();
         entity.description = book.getDescription();

@@ -13,6 +13,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BookReviewApp"
         tools:targetApi="31">
+        <activity android:name=".ui.bookdetail.BookDetailActivity" />
 
         <activity
             android:name=".MainActivity"

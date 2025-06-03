@@ -18,5 +18,7 @@ public class BookEntity {
     // Empty constructor for Room
     public BookEntity() {}
 
+
+
     // Getters and setters (optional)
 }
